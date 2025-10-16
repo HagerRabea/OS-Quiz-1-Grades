@@ -254,7 +254,7 @@ document.getElementById('gradeForm').addEventListener('submit', function(event) 
         let gradeList = '<h2>Your Grades : ' +  '</h2>';
         gradeList += '<ul>';
         grades[studentID].forEach(function(grade) {
-            gradeList += '<li>' +'Midterm1 Grade : '+ grade + '</li>';
+            gradeList += '<li>' +'Quiz 1 Grade : '+ grade + '</li>';
         });
         gradeList += '</ul>';
         gradeList +='<p>'+'Bravo! May success always be with you .'+'<p>';
